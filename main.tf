@@ -17,8 +17,7 @@ resource "aws_instance" "app_server" {
   ami           = "ami-095413544ce52437d"
   instance_type = "t2.micro"
   key_name = "iac-devops"
-
   tags = {
-    Name = "Primeira instancia"
+    Name = "aws teste"
   }
 }
